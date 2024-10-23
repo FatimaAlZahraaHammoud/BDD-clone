@@ -298,3 +298,19 @@ main h1{
     font-weight: 600;
     margin-top: 10px;
 }
+
+/*Feedbacks*/
+.feedbacks{
+    display: flex;
+    margin: 0;
+}
+
+.feedbacks h2{
+    font-family: 'TheMixBlack';
+    font-size: 30px;
+}
+
+.feedbacks img{
+    width: 85%;
+    margin: 0;
+}
