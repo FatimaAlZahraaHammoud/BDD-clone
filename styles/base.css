@@ -1,28 +1,28 @@
 
 @font-face{
     font-family: 'TheMixBlack';
-    src: url(./../assists/fonts/themix-2/TheMixBlack.otf) format('opentype');
+    src: url(./../assets/fonts/themix-2/TheMixBlack.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TheMixBold';
-    src: url(./../assists/fonts/themix-2/TheMixBold.otf) format('opentype');
+    src: url(./../assets/fonts/themix-2/TheMixBold.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: 'TheMixSemiBold';
-    src: url(./../assists/fonts/themix-2/TheMixSemiBold.otf) format('opentype');
+    src: url(./../assets/fonts/themix-2/TheMixSemiBold.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TheMixLight';
-    src: url(./../assists/fonts/themix-2/TheMixLight.otf) format('opentype');
+    src: url(./../assets/fonts/themix-2/TheMixLight.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -50,7 +50,7 @@ main{
     width: 100%;
 }
 
-.overlay{
+main .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -92,5 +92,78 @@ main h1{
     padding-top: 280px;
     font-size: 50px;
     font-family: 'TheMixBlack';
+}
+
+/*Section1: Foundations*/
+
+.foundations h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'TheMixBlack';
+}
+
+.foundations .foundation-items{
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 16px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.foundations .card{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    padding: 35px;
+}
+
+.foundations .card img{
+    width: auto;
+    height: 80px;
+}
+
+.foundations .card h3{
+    font-family: "TheMixBlack", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.foundations .card p{
+    font-family: 'TheMixSemiBold';
+    color: gray;
+}
+
+/*Section2: Vision*/
+
+.vision{
+    margin-top: 50px;
+    background-image: url(./../images/Shared-Space-at-BDD.png);
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.vision .overlay{
+    background-color: #323232;
+    opacity: 0.5;
+}
+
+.vision h2{
+    font-family: 'TheMixBlack';
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
